@@ -1,7 +1,13 @@
 [project]
-name = "flasktemplate"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+name = "flaskr"
+version = "1.0.0"
+description = "The basic blog app built in the Flask tutorial."
+
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "flask",
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
